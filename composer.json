@@ -1,0 +1,17 @@
+{
+  "name": "titledk/silverstripe-gallery-pagetypes",
+  "description": "Page types for our gallery module",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/titledk/silverstripe-gallery-pagetypes",
+  "keywords": ["silverstripe", "gallery"],
+  "authors": [
+    {"name": "Anselm Christophersen","email": "ac@anselm.dk"}
+  ],
+  "require": {
+    "php": ">=5.4",
+    "titledk/silverstripe-gallery": "*"
+  },
+  "extra": {
+    "installer-name": "gallery-pagetypes"
+  }
+}
