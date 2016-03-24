@@ -1,0 +1,7 @@
+---
+Name: gallery-pagetypes
+---
+#TODO this one should be set directly by upload dir rules
+LeftAndMain:
+  extensions:
+    - UploadDirRules_LeftAndMainExtension
