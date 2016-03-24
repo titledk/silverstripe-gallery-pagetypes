@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "titledk/silverstripe-gallery": "*"
+    "titledk/silverstripe-gallery": "dev-master"
   },
   "extra": {
     "installer-name": "gallery-pagetypes"
