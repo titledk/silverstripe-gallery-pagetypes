@@ -20,12 +20,20 @@ class GalleryHolder extends Page
      */
     public function getFirstImage()
     {
-        $firstChild = $this->Children()->First();
+        $firstChild = $this->Galleries()->First();
         if ($firstChild &&
             ($firstChild->ClassName == 'GalleryPage' ||
              $firstChild->ClassName == 'GalleryHolder')) {
             return $firstChild->getFirstImage();
         }
+    }
+
+    /**
+     * @return DataList
+     */
+    public function Galleries()
+    {
+        return $this->Children();
     }
 }
 class GalleryHolder_Controller extends Page_Controller
